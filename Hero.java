@@ -7,6 +7,7 @@ public class Hero {
     public int ATK;
     public int DEF;
 
+    public Hero(){};
     public  Hero(int HP,int Key,int ATK,int DEF){
         this.ATK = ATK;
         this.HP = HP;
